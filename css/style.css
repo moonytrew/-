@@ -1,0 +1,1161 @@
+/*=============================================
+=                  General                    =
+=============================================*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+
+/*=============================================
+=                  Navbar                   =
+=============================================*/
+/* .navbar {
+    padding-left: 100px;
+    padding-top: 30px;
+} */
+
+.navbar-nav {
+    /* padding-left: 500px;
+    padding-top: 30px; */
+    font-family: 'Playfair Display', serif;
+}
+
+.fl_left {
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+}
+
+/*=============================================
+=                  Header                    =
+=============================================*/
+.header_photo {
+    position: relative;
+}
+
+.heading {
+    position: relative;
+    font-size: 80px;
+    font-family: 'Roboto', sans-serif;
+    bottom: 250px;
+    left: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.header_content {
+    position: relative;
+    bottom: 230px;
+    left: 10px;
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+.line {
+    position: relative;
+    width: 30%;
+    height: 50px;
+    border-bottom: solid white 5px;
+    left: 350px;
+    bottom: 280px;
+    padding: 0;
+    margin: 0;
+}
+
+.btn {
+    position: relative;
+    border: 2px solid white;
+    border-radius: 0;
+    width: 230px;
+    height: 50px;
+    font-size: 20px;
+    bottom: 180px;
+    color: white;
+    font-family: 'Merriweather', serif;
+}
+
+
+/*=============================================
+=                  Slider                    =
+=============================================*/
+
+
+/*=============================================
+=                  內文區塊1                    =
+=============================================*/
+.wrapper {
+    position: relative;
+}
+
+.etiam {
+    position: relative;
+    margin-bottom: 70px;
+    margin-top: 70px;
+    text-align: center;
+    color: gray;
+    font-family: 'Merriweather', serif;
+}
+
+.estim_title {
+    font-size: 40px;
+}
+
+.etiam_text {
+    margin: 30px;
+    font-size: 20px;
+}
+
+.etiam_line {
+    position: relative;
+    width: 10%;
+    height: 20px;
+    border-bottom: solid gainsboro 2px;
+    left: 500px;
+    padding: 0;
+    margin: 0;
+}
+
+.icon_section {
+    margin-bottom: 100px;
+    color: gray;
+    font-family: 'Merriweather', serif;
+}
+
+.one_quarter {
+    text-align: center;
+    border-radius: 15px;
+    transition: all .5s ease-out;
+}
+
+.one_quarter:hover {
+    background: white;
+    box-shadow: 0px 22px 22px rgba(0, 0, 0, .25);
+}
+
+.font-x1 {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.icon_line {
+    position: relative;
+    width: 20%;
+    height: 20px;
+    border-bottom: solid gainsboro 2px;
+    padding: 0;
+    margin: 0;
+    left: 100px;
+}
+
+.icon_p {
+    margin-top: 25px;
+    font-size: 18px;
+
+}
+
+.fa {
+    color: red;
+}
+
+
+/*=============================================
+=                  內文區塊2                    =
+=============================================*/
+.Nasccetur {
+    position: relative;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-right: 0;
+}
+
+.clear1 {
+    position: relative;
+    padding-top: 100px;
+    margin-bottom: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    font-family: 'Merriweather', serif;
+}
+
+.bgded {
+    position: relative;
+    height: 650px;
+    background-color: rgba(0, 0, 0, .6);
+    background-blend-mode: multiply;
+    background-image: url(../image/60-1920x1200.jpeg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.Nascetur_title {
+    font-size: 40px;
+}
+
+.Nascetur_line {
+    position: relative;
+    width: 10%;
+    height: 20px;
+    border-bottom: solid gainsboro 2px;
+    left: 500px;
+    padding: 0;
+    margin-bottom: 25px;
+}
+
+.Nascetur_text {
+    font-size: 20px;
+}
+
+.circle_section {
+    list-style: none;
+    margin-top: 50px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    float: left;
+    position: relative;
+    line-height: 100px;
+    overflow: hidden;
+}
+
+.circle::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 5px solid rgb(204, 204, 204);
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.p25 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 5px solid rgb(255, 0, 0);
+    border-radius: 50%;
+    clip: rect(0, auto, auto, 100px);
+    z-index: 2;
+}
+
+.p30 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 5px solid rgb(204, 204, 204);
+    border-radius: 50%;
+    clip: rect(0, auto, auto, 100px);
+    z-index: 3;
+    transform: rotate(90deg);
+}
+
+.p50 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 5px solid rgb(255, 0, 0);
+    border-radius: 50%;
+    clip: rect(0, auto, auto, 100px);
+    z-index: 3;
+}
+
+.p75 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 5px solid rgb(255, 0, 0);
+    border-radius: 50%;
+    clip: rect(0, auto, auto, 100px);
+    z-index: 3;
+}
+
+.p90 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 5px solid rgb(255, 0, 0);
+    border-radius: 50%;
+    clip: rect(0, auto, auto, 100px);
+    z-index: 3;
+    transform: rotate(90deg);
+}
+
+.p100 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 5px solid rgb(255, 0, 0);
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.circle_p {
+    position: absolute;
+    font-size: 20px;
+    top: 220px;
+    left: 63px;
+}
+
+.circle_text {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    top: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*=============================================
+=                  內文區塊3                    =
+=============================================*/
+.section3 {
+    position: relative;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.Morbi {
+    position: relative;
+    text-align: center;
+    color: gray;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 50px;
+}
+
+.Morbi_line {
+    position: relative;
+    width: 10%;
+    height: 20px;
+    border-bottom: solid gainsboro 2px;
+    left: 500px;
+    padding: 0;
+    margin-bottom: 25px;
+}
+
+.Morbi_title {
+    font-size: 40px;
+}
+
+.Morbi_text {
+    font-size: 20px;
+}
+
+.grp_p {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.719);
+    top: 200px;
+    left: 215px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.grp_heading {
+    color: gray;
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+}
+
+.grp_text {
+    color: gray;
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+}
+
+.two_quarter {
+    max-width: 100%;
+    transition: all .5s ease-out;
+}
+
+.two_quarter:hover {
+    background: white;
+    box-shadow: 0px 22px 22px rgba(0, 0, 0, .25);
+}
+
+/*=============================================
+=                  頁尾                       =
+=============================================*/
+.section4 {
+    position: relative;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.824);
+    color: white;
+    height: 380px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.three_quarter {
+    position: relative;
+    top: 55px;
+    padding-bottom: 0;
+    height: 100%;
+}
+
+.footer_title {
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+    font-weight: bolder;
+}
+
+.btmspace-15 {
+    font-size: 15px;
+    color: gainsboro;
+    font-family: 'Merriweather', serif;
+    padding-top: 10px;
+}
+
+.Splash_quarter {
+    padding-left: 200px;
+    margin: 0;
+    padding-bottom: 0;
+    padding-bottom: 0;
+}
+
+.nospace {
+    list-style: none;
+}
+
+.info_section {
+    padding: 0;
+    color: gainsboro;
+    font-family: 'Merriweather', serif;
+    width: 150px;
+}
+
+.Sed_quarter {
+    padding-left: 60px;
+    padding-right: 0;
+    margin: 0;
+    padding-bottom: 0;
+    padding-bottom: 0;
+}
+
+.linklist {
+    font-family: 'Merriweather', serif;
+    padding-bottom: 0px;
+    padding-top: 8px;
+    padding-left: 0;
+    line-height: 200%;
+}
+
+.From_quarter {
+    padding-left: 0px;
+    padding-right: 100px;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+.From_h {
+    margin: 0;
+}
+
+.From_link {
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+}
+
+.smallfont {
+    font-family: 'Merriweather', serif;
+}
+
+.From_text {
+    font-family: 'Merriweather', serif;
+    color: gainsboro;
+    padding-top: 20px;
+}
+
+.Grab_quarter {
+    padding-right: 100px;
+    padding-left: 0px;
+    margin: 0;
+    padding-bottom: 0;
+    left: -40px;
+    padding-bottom: 0;
+}
+
+.btmspace-16 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: gray;
+    background-color: black;
+    border: 0;
+    border-radius: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 40px;
+}
+
+.btmspace-17 {
+    margin-bottom: 10px;
+    color: gray;
+    background-color: black;
+    border: 0;
+    border-radius: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 40px;
+}
+
+.btn_sub {
+    font-family: 'Merriweather', serif;
+    border: 0;
+    border-radius: 0;
+    width: 80px;
+    height: 30px;
+}
+
+.copy_section {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.824);
+    color: gainsboro;
+    size: 8px;
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+}
+
+.copy_left {
+    position: relative;
+    margin-left: 180px;
+    top: 30px;
+    left: -180px;
+    font-size: 15px;
+}
+
+.copy_right {
+    position: relative;
+    text-align: end;
+    bottom: 8px;
+    /* right: 5px; */
+    margin: 0;
+    font-size: 15px;
+}
+
+.copy_line {
+    position: relative;
+    width: 75%;
+    height: 1px;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    bottom: 80px;
+    left: 180px;
+}
+
+
+#goBackBtn {
+    width: 40px;
+    height: 40px;
+    border: none;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 1000;
+}
+
+.arrow {
+    color: white;
+}
+
+/*=============================================
+=                  media                    =
+=============================================*/
+
+@media (max-width:1300px) {
+    .heading {
+        position: relative;
+        top: -150px;
+        color: white;
+        font-size: 80px;
+    }
+
+    .header_content {
+        position: relative;
+        top: -150px;
+        font-size: 25px;
+    }
+
+    .line {
+        position: relative;
+        top: -180px;
+        left: 300px;
+    }
+
+    .btn {
+        position: relative;
+        top: -100px;
+    }
+
+    .etiam_line {
+        left: 430px;
+    }
+
+    .icon_line {
+        left: 85px;
+    }
+
+    .circle_p {
+        left: 63px;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .Nascetur_line {
+        left: 430px;
+        padding: 0;
+        margin-bottom: 25px;
+    }
+
+    .circle_p {
+        left: 63px
+    }
+
+    .Morbi_line {
+        left: 400px;
+    }
+
+    .grp_text {
+        width: 250px;
+    }
+
+    .two_quarter {
+        left: 80px;
+    }
+
+    .section4 {
+        height: 430px;
+    }
+
+    .Splash_quarter {
+        padding-left: 120px;
+    }
+
+    .Sed_quarter {
+        padding-left: 20px;
+    }
+
+    .copy_line {
+        width: 85%;
+        left: 100px;
+    }
+
+}
+
+@media (max-width:1000px) {
+    .heading {
+        position: relative;
+        top: -100px;
+        color: white;
+        font-size: 60px;
+    }
+
+    .header_content {
+        position: relative;
+        top: -110px;
+        font-size: 18px;
+    }
+
+    .line {
+        position: relative;
+        top: -130px;
+        left: 250px;
+    }
+
+    .btn {
+        position: relative;
+        top: -80px;
+    }
+
+    .etiam_line {
+        left: 330px;
+    }
+
+    .icon_line {
+        left: 140px;
+    }
+
+    .Nascetur_line {
+        left: 420px;
+        padding: 0;
+        margin-bottom: 25px;
+    }
+
+    .bgded {
+        height: 950px;
+    }
+
+    .circle {
+        margin-bottom: 70px;
+    }
+
+    .Nascetur_line {
+        left: 300px;
+    }
+
+    .circle_p {
+        top: 220px;
+        left: 60px;
+    }
+
+    .Morbi_line {
+        left: 310px;
+    }
+
+    .two_quarter {
+        left: 30px;
+    }
+
+    .Splash_quarter {
+        padding-left: 60px;
+        font-size: 13px;
+        width: 150px;
+    }
+
+    .btmspace-15 {
+        font-size: 13px;
+    }
+
+    .Sed_quarter {
+        padding-left: 0px;
+        width: 200px;
+    }
+
+    .linklist {
+        font-size: 13px;
+    }
+
+    .From_quarter {
+        padding-left: 10px;
+        width: 240px;
+    }
+
+    .From_link {
+        font-size: 15px;
+    }
+
+    .smallfont {
+        font-size: 13px;
+    }
+
+    .From_text {
+        font-size: 13px;
+    }
+
+    .Grab_quarter {
+        width: 180px;
+        right: 250px;
+        padding-left: 0;
+    }
+
+    .btmspace-16 {
+        width: 150px;
+    }
+
+    .btmspace-17 {
+        width: 150px;
+    }
+
+    .footer_title {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 815px) {
+    .heading {
+        position: relative;
+        top: -40px;
+        left: 0px;
+        font-size: 50px;
+    }
+
+    .header_content {
+        position: relative;
+        top: -55px;
+        font-size: 18px;
+    }
+
+    .line {
+        position: relative;
+        top: -80px;
+        left: 200px;
+    }
+
+    .btn {
+        position: relative;
+        top: -30px;
+        border-radius: 0;
+        width: 200px;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .etiam_line {
+        left: 250px;
+    }
+
+    .icon_line {
+        left: 100px;
+        width: 10%;
+        left: 220px;
+    }
+
+    .Nascetur_line {
+        left: 230px;
+    }
+
+    .circle_p {
+        left: 58px;
+    }
+
+    .Morbi_line {
+        left: 220px;
+    }
+
+    .two_quarter {
+        left: 100px;
+    }
+
+    .Splash_quarter {
+        padding-left: 30px;
+        width: 50px;
+    }
+
+    .Sed_quarter {
+        width: 150px;
+        padding-left: 0;
+    }
+
+    .From_quarter {
+        padding-left: 20px;
+        padding-right: 0;
+        width: 200px;
+    }
+
+    .Grab_quarter {
+        padding-left: 70px;
+        width: 150px
+    }
+
+    .copy_line {
+        left: 20px;
+        width: 90%
+    }
+}
+
+@media (max-width: 800px) {
+    .Morbi_line {
+        left: 310px;
+    }
+
+    .two_quarter {
+        left: 30px;
+    }
+
+    .Splash_quarter {
+        padding-right: 20px;
+        width: 190px;
+    }
+}
+
+@media (max-width: 790px) {
+    .Morbi_line {
+        left: 230px;
+    }
+
+    .two_quarter {
+        left: 100px;
+    }
+
+    .From_quarter {
+        width: 150px
+    }
+
+    .copy_line {
+        width: 95%;
+    }
+}
+
+@media (max-width: 700px) {
+    .heading {
+        top: -20px;
+        font-size: 40px;
+    }
+
+    .header_content {
+        top: -45px;
+        font-size: 15px;
+    }
+
+    .line {
+        top: -58px;
+        left: 170px;
+    }
+
+    .btn {
+        width: 180px;
+        height: 45px;
+        font-size: 15px;
+    }
+
+    .icon_line {
+        left: 100px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .bgded {
+        height: 1000px;
+    }
+
+    .circle {
+        margin-bottom: 80px;
+        left: -30px;
+    }
+
+    .circle_p {
+        left: 30px;
+        top: 210px
+    }
+
+    .section4 {
+        height: 450px;
+    }
+
+    .Sed_quarter {
+        width: 150px;
+    }
+
+    .From_quarter {
+        width: 130px;
+    }
+
+    .Grab_quarter {
+        width: 100px;
+        padding-left: 60px;
+    }
+
+    .btmspace-16 {
+        width: 100px;
+        font-size: 13px;
+    }
+
+    .btmspace-17 {
+        width: 100px;
+        font-size: 13px;
+    }
+
+    .btn_sub {
+        font-size: 13px;
+    }
+
+    .copy_line {
+        width: 90%;
+    }
+}
+
+@media (max-width: 600px) {
+    .bgded {
+        height: 1000px;
+    }
+
+    .circle {
+        left: -10px;
+    }
+
+    .circle_p {
+        left: 50px;
+    }
+
+    .Splash_quarter {
+        width: 180px;
+    }
+}
+
+@media (max-width: 590px) {
+    .bgded {
+        height: 1500px;
+    }
+
+    .circle {
+        left: 90px;
+    }
+
+    .circle_p {
+        left: 145px;
+    }
+
+    .btmspace-15 {
+        font-size: 8;
+    }
+
+    .Splash_quarter {
+        width: 140px;
+    }
+
+    .phone_number {
+        width: 80px;
+    }
+
+    .mail {
+        width: 50px
+    }
+
+    .Sed_quarter {
+        width: 130px;
+    }
+
+    .linklist {
+        font-size: 8px;
+    }
+
+    .From_link {
+        width: 120px;
+        font-size: 10px;
+    }
+
+    .smallfont {
+        font-size: 8px;
+    }
+
+    .From_text {
+        font-size: 8px;
+    }
+
+    .copy_left {
+        font-size: 8px;
+    }
+
+    .copy_right {
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 550px) {
+    .heading {
+        font-size: 40px;
+        top: 20px;
+    }
+
+    .header_content {
+        top: -15px;
+        font-size: 10px;
+    }
+
+    .line {
+        top: -20px;
+        left: 130px;
+    }
+
+    .btn {
+        top: -5px;
+        font-size: 10px;
+        width: 150px;
+        height: 35px;
+    }
+
+    .icon_line {
+        left: 208px;
+    }
+
+    .icon_p {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 30px;
+    }
+
+    .bgded {
+        height: 1570px;
+    }
+
+    .Nascetur_line {
+        left: 210px;
+    }
+
+    .circle {
+        margin-bottom: 70px;
+        left: 70px;
+    }
+
+    .circle_p {
+        left: 128px;
+    }
+
+    .Morbi_line {
+        left: 210px;
+    }
+
+    .two_quarter {
+        transition: all .5s ease-out;
+    }
+
+    .two_quarter:hover {
+        background: white;
+        box-shadow: 0px 22px 22px rgba(0, 0, 0, .25);
+    }
+
+    .footer_title {
+        font-size: 12px;
+    }
+
+    .btmspace-15 {
+        font-size: 6px;
+    }
+
+    .Sed_quarter {
+        width: 130px;
+    }
+
+    .From_quarter {
+        width: 120px;
+    }
+
+    .linklist {
+        font-size: 6px;
+    }
+
+    .smallfont {
+        font-size: 6px;
+    }
+
+    .From_text {
+        font-size: 6px;
+    }
+
+    .Grab_quarter {
+        padding-right: 0;
+    }
+
+    .copy_line {
+        width: 98%;
+        left: 5px;
+    }
+}
